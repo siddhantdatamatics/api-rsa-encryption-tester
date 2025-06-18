@@ -1,0 +1,22 @@
+{
+  "name": "api-rsa-encryption-tester-main",
+  "version": "1.0.0",
+  "description": "Encrypt / Decrypt using RSA-AES(GCM) hybrid encryption Algorithm",
+  "main": "index.js",
+  "homepage": "https://your-username.github.io/api-encryption-tester",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-forge": "^1.3.1",
+    "redis": "^5.5.6"
+  }
+}
